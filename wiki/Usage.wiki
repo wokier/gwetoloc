@@ -1,0 +1,32 @@
+#summary gwetoloc Usage
+
+== Add the library == 
+
+==== With Maven ====
+Use [http://mojo.codehaus.org/gwt-maven-plugin/ gwt-maven-plugin]
+
+Define the repository in the repositories section
+{{{
+		<repository>
+			<id>gwetoloc-repository</id>
+			<name>gwetoloc</name>
+	<url>http://gwetoloc.googlecode.com/svn/repository</url>
+		</repository>
+}}}
+Define the dependency in the dependencies section
+{{{
+		<dependency>
+			<groupId>com.googlecode.gwetoloc</groupId>
+			<artifactId>gwetoloc</artifactId>
+			<version>0.0.1-beta</version>
+		</dependency>
+}}}
+==== Without Maven ====
+ * gwetoloc-0.0.1-beta.jar
+
+== Add the module in your web.xml ==
+Define in your .gwt.xml
+{{{
+<inherits name='com.googlecode.gwetoloc.GWeToloc' />
+
+}}}
