@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2011-08-06T10:39:41.937">
+<file name="J:\android\workspace\gwt-geolocation\src\main\java\com\googlecode\gwetoloc\geo\NavigatorGeolocation.java">
+<violation beginline="11" endline="62" begincolumn="35" endcolumn="1" rule="UseSingleton" ruleset="Design Rules" package="com.googlecode.gwetoloc.geo" class="NavigatorGeolocation" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="37" endline="39" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic Rules" package="com.googlecode.gwetoloc.geo" class="NavigatorGeolocation" method="getCurrentPosition" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="J:\android\workspace\gwt-geolocation\src\main\java\com\googlecode\gwetoloc\model\Coordinates.java">
+<violation beginline="54" endline="56" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="Coordinates" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="59" endline="61" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="Coordinates" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="J:\android\workspace\gwt-geolocation\src\main\java\com\googlecode\gwetoloc\model\Position.java">
+<violation beginline="46" endline="48" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="Position" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="51" endline="53" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="Position" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+</file>
+<file name="J:\android\workspace\gwt-geolocation\src\main\java\com\googlecode\gwetoloc\model\PositionOptions.java">
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="38" rule="LongVariable" ruleset="Naming Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" variable="enableHighAccuracy" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like enableHighAccuracy
+</violation>
+<violation beginline="24" endline="26" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Controversial Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="29" endline="31" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="34" endline="36" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="39" endline="41" begincolumn="12" endcolumn="5" rule="UselessOverridingMethod" ruleset="Basic Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#UselessOverridingMethod" priority="3">
+Overriding method merely calls super
+</violation>
+<violation beginline="47" endline="47" begincolumn="47" endcolumn="64" rule="LongVariable" ruleset="Naming Rules" package="com.googlecode.gwetoloc.model" class="PositionOptions" method="setEnableHighAccuracy" variable="enableHighAccuracy" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like enableHighAccuracy
+</violation>
+</file>
+</pmd>
