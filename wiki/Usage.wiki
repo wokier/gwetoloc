@@ -10,7 +10,7 @@ Define the repository in the repositories section
 		<repository>
 			<id>gwetoloc-repository</id>
 			<name>gwetoloc</name>
-		<url>http://gwetoloc.googlecode.com/svn/repository</url>
+			<url>http://gwetoloc.googlecode.com/svn/repository</url>
 		</repository>
 }}}
 Define the dependency in the dependencies section
