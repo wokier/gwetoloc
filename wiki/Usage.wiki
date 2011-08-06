@@ -24,8 +24,7 @@ Define the dependency in the dependencies section
 ==== Without Maven ====
  * gwetoloc-0.0.1-beta.jar
 
-== Add the module in your web.xml ==
-Define in your .gwt.xml
+== Add the module in your .gwt.xm ==
 {{{
 <inherits name='com.googlecode.gwetoloc.GWeToloc' />
 
