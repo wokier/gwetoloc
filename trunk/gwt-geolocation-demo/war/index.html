@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GWeToloc Demo</title>
+	<meta name="description" content="Alloteou est un service permettant d'organiser des rendez-vous" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<link type="text/css" rel="stylesheet" href="GWeTolocDemo/gwt/standard/standard.css">
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    
+    <script type="text/javascript" language="javascript" src="GWeTolocDemo/GWeTolocDemo.nocache.js"></script>
+  </head>
+
+  <body>
+
+    <h1>GWeToloc Demo</h1>
+    
+	<a href="javascript:navigator.geolocation.getCurrentPosition(function(position){window.alert(position.coords.latitude+' '+position.coords.longitude)});">Html5 js Geoloc</a>
+	<!--<a href="google.gears.factory.create('beta.geolocation').getCurrentPosition(function(position) {window.alert(position.coords.latitude+' '+position.coords.longitude)});">Gears Geoloc</a>-->
+	
+	<div id="content">Loading...</div>
+	
+    <noscript>
+      <div class="error">
+        Your web browser must have JavaScript enabled in order for this application to display correctly.
+      </div>
+    </noscript>
+    
+  </body>
+</html>
