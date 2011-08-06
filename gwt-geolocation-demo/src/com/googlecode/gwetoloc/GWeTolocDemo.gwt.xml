@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='GWeTolocDemo'>
+	<inherits name='com.google.gwt.user.User' />
+
+	<inherits name='com.google.gwt.user.theme.standard.Standard' />
+	<inherits name='com.google.gwt.user.theme.standard.StandardResources'/>
+	
+	<entry-point class='com.googlecode.gwetoloc.client.GWeTolocEntryPoint' />
+
+	<inherits name='com.googlecode.gwetoloc.GWeToloc' />
+
+	<source path='client' />
+
+</module>
