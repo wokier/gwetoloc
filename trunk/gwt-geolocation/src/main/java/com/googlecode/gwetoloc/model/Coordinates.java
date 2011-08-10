@@ -45,6 +45,20 @@ public class Coordinates implements Serializable, IsSerializable {
 	this.accuracy = accuracy;
     }
 
+    /**
+     * Full Constructor
+     */
+    public Coordinates(double latitude, double longitude, double accuracy, Double altitude, Double altitudeAccuracy, Double heading, Double speed) {
+	super();
+	this.latitude = latitude;
+	this.longitude = longitude;
+	this.accuracy = accuracy;
+	this.altitude = altitude;
+	this.altitudeAccuracy = altitudeAccuracy;
+	this.heading = heading;
+	this.speed = speed;
+    }
+
     @Override
     public String toString() {
 	return super.toString() + ":" + latitude + " " + longitude + " " + accuracy;
